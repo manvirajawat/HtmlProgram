@@ -1,0 +1,28 @@
+#d1
+ {
+   height:auto;
+   width:440px;
+   margin:auto;
+   padding:20px;
+   box-sizing:border-box;
+   background-color:wheat;
+ }
+table
+{
+  height:auto;
+  width:400;
+  background-color:white;
+}
+th,td
+{
+  font-size:20px;
+}
+thead
+{
+  background-color:black;
+  color:white;
+}
+tr:hover
+{
+ background-color:wheat; 
+}

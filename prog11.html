@@ -1,0 +1,74 @@
+<html>
+ <head>
+   <title>User Input Form</title>'
+   <style>
+   fieldset
+    {
+      height:auto;
+      width:400px;  
+    }
+   </style>
+ </head>
+ <body>
+  <fieldset>
+  <h3>User Input Form</h3>
+  <form action="prog7.html" method="post">
+  
+    <fieldset><legend>Personal Particular</legend>
+     
+         <label>Name</label>
+         <input required type="text" id="name" name="name" placeholder="Enter name"><br><br>
+         
+        <label>Password</label>
+        <input  type="password" id="pass" name="pass" placeholder="Enter password"><br><br>
+   
+         <label>Gender</label>
+         
+         <input checked type="radio" id="male" name="gender">
+         <label for="male">Male</label>
+         <input type="radio" id="female" name="gender">
+         <label for="female">Female</label><br><br>
+    
+      <label>Select Age</label>
+   
+       <select required id="subject" name="subject">
+       <option value="">.....select Age.....</option>
+       <option  selected value=""><1 year old</option>
+       <option value="">b/w 1 to 10</option>
+       <option value="">b/w 11 to 20</option>
+       <option value="">b/w 21 to 30</option>
+       <option value="">b/w 31 to 40</option>
+       <option value="">b/w 41 to 50</option>
+       <option value="">b/w 51 to 60</option>
+       <option value="">b/w 61 to 70</option>
+       <option value="">b/w 71 to 80</option>
+       <option value="">b/w 81 to 90</option>
+       <option value="">b/w 91 to 100</option>
+       </select>
+      
+     </fieldset>
+     
+     <fieldset>
+     <legend>Language</legend>
+     
+         <input type="checkbox" id="java" name="java">
+         <label for="cricket">Java</label>
+         <input type="checkbox" id="c" name="c">
+         <label for="hockey">C/C++</label>
+         <input type="checkbox" id="cc" name="cc">
+         <label for="vollyball">C#</label>
+        
+     </fieldset>  
+   
+    <fieldset>  
+    <legend>Instruction</legend>
+     <textarea placeholder=" Enter your instruction here....." rows="10" cols="40"></textarea>
+    </fieldset>
+    
+       <input type="submit" value="SEND">
+       <input type="reset" value="CLEAR">
+      
+  </form>
+ </fieldset>
+ </body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+
+  <head>
+   <title>12 prog</title>
+   <style>
+    label
+     {
+       font-size:23px;
+     }
+    h1
+     {
+       font-size:40px;
+     } 
+    input
+       {
+          font-size:15px;
+       }
+   </style>
+  </head>
+  
+  <body>
+    <h1>Travel reservation form</h1>
+    <h2>*denotes mandatory</h2>
+    <form action="prog7.html" method="post">
+     <label>Full name*:</label><br>
+     <input required type="text" placeholder="FirstName LastName"><br>
+        
+     <label>Email address*:</label><br>
+     <input required type="email" placeholder="EMAIL_ADDRESS"><br>
+ 
+     <label>Select Tour Package*:</label><br>
+     <select required>
+      <option value="">select</option>
+      <option selected value="Goa">Goa</option>
+      <option value="J&K">J&K</option>
+      <option value="Shimla">Shimla</option>
+      <option value="Manali">Manali</option>
+     </select><br>
+
+     <label>Arrival date*:</label><br>
+     <input required type="date"><br>
+
+     <label>Number of persons*:</label><br>
+     <input required type="number" min="0" placeholder="UNKNOWN_TYPE"><br>
+
+     <label>What would you want to avail?*</label><br>
+     <label for="a1">Boarding</label><input type="checkbox" id="a1"><br>
+     <label for="a2">Fooding</label><input type="checkbox" id="a2"><br>
+     <label for="a3">Sight seeing</label><input type="checkbox" id="a3"><br>
+      
+     <label>Discount Coupon code:</label><br>
+     <input type="text" placeholder="UNKNOWN_TYPE"><br>
+
+     <label>Terms and conditions*:</label><br>
+     <input required checked type="radio" name="r" id="r1"><label for="r1">I agree</label>
+     <input required type="radio" name="r" id="r2"><label for="r2">I disagree</label><br>
+
+     <input type="submit" value="Complete reservation"> 
+    </form>
+  </body>
+  
+</hml>
